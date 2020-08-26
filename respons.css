@@ -1,0 +1,35 @@
+
+@media screen and (max-width: 1100px){
+    div.contain{
+        margin: 50px 30px 0px 10px;
+    
+    }
+}
+
+@media screen and (max-width: 900px){
+    div.contain{
+        margin: 40px 0px 0px 20px;
+    }
+}
+@media screen and (max-width: 840px){
+   div.contain{
+        margin: 40px 0px 0px 20px;
+   }
+}
+@media screen and (max-width: 800px){
+    div.content .two .row1{
+        width: 430px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-right: 190px;
+        float: center;
+    }
+    div.contain .row{
+        text-align: center;
+        width: 100%;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 660px){
+   
+}

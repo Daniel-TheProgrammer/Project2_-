@@ -1,0 +1,365 @@
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.nav{
+    height: 70px;
+    background-color: grey;
+}
+marquee{
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+div.contain{
+    margin: 50px 40px 0px 40px;
+
+}
+ fieldset {
+     padding: 40px 60px 20px 60px ;
+     margin-top: 9px;
+     border: 0;
+     width: 90%;
+    box-shadow: -2px -2px 20px 2px 
+    rgba(15, 39, 150, 0.15), 2px 2px 50px 11px rgb(12, 35, 141);
+     
+}
+fieldset .titles,fieldset a{
+    margin: 0 0 100px 0;
+    color:blue;
+    font-weight: 600;
+    font-size: 20px;
+}
+fieldset .titles .t{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+fieldset .titles hr{
+    width: 70px;
+    height: 4px;
+    border: 0;
+    background-color:white(56, 83, 207);
+}
+div.content .one,div.content .three{
+    display: none;
+}
+div.content .ss{
+    margin-top: 150px;
+}
+/* ******************************************** */
+div.content div.row{
+    height: 210px;
+}
+div.content .two .row1{
+    width: 430px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 190px;
+    float: right;
+}
+div.content .two .row1 .row11{
+ float: left;
+ margin-right: 40px;
+}
+div.content .two .row1 .row12{
+    text-align: left;
+}
+/* ***************************************************** */
+div.content .two .row2{
+    width: 640px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    float: left;
+}
+div.content .two .row2 .row21{
+    text-align: left;
+    margin-left: 100px;
+}
+div.content .row2 .row22{
+    float: right;
+    margin-left: 40px;
+}
+div.content .two .last{
+    margin-bottom: 500px;
+}
+.two .getit a {
+    text-decoration: none;
+    color: #000;
+    width: 200px;
+    font-size: 30px;
+}
+.two .getit a:hover{
+    color: rgb(56, 83, 207);
+    text-decoration: solid;
+}
+.two center .getit hr{
+    width: 20px;
+}
+.two center hr{
+    width: 200px;
+    border: 0px;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+}
+.get-it{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.get-it h2{
+    font-weight: 900;
+    font-size: 43px;
+}
+.get-it .t .t1{
+    margin-right: 20px;
+}
+.get-it .t .t2{
+    margin-left: 20px;
+}
+.get-it .t .t1,.get-it .t .t2 {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-size: 28px;
+}
+.get-it .apps .mid {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.get-it .apps .img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+div.footer{
+    height: 280px;
+    padding-top: 10px;
+}
+div.footer , div.footer a{
+    background-color:blue;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+}
+div.footer .onew,div.footer .twow,div.footer .threew{
+    width: 33.333333%;
+    float: left;
+    height: 280px;
+    text-align: center;
+}
+div.footer li{
+    margin: 30px 0px 0px 20%;
+}
+#one {
+    height: 100vh;
+    padding-left: 100px;
+    background-color: white(30, 100, 200, 0.5);
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+#get {
+    position: relative;
+    top: 20%;
+    text-align: center;
+    color:blue;
+}
+
+#get h1 {
+    font-size: 50px;
+    color: white;
+}
+
+#get p {
+    margin-bottom: 60px;
+    font-size: 30px;
+    color: white;
+}
+
+#get a {
+    background-color: white;
+    font-size: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    left: 3%;
+    font-weight: bold;
+    margin-top: 40px;
+    color:white;
+}
+
+.sidemenu {
+    padding-right: 20px;
+    float: right;
+    padding-top: 50px;
+    font-size: 20px;
+    color: blue;
+}
+
+.sidemenu li a {
+    color:blue;
+    font-size: 20px;
+}
+
+.signup {
+    background-color:blue;
+    color: rgb(210, 217, 224);
+    border-radius: 5px;
+}
+
+#menu li {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+    color: white;
+    font-size: 30px;
+    text-decoration-style: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#head2 {
+    color:white;
+    font-size: 30px;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+.meet {
+    display: inline;
+    width: 100px;
+    position: relative;
+    padding-left: 200px;
+}
+
+.meet div {
+    padding: 0px;
+    display: inline;
+    float: left;
+    width: 300px;
+    margin: 100px;
+    font-size: 25px;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+#whyride {
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding: 30px;
+    float: left;
+    padding-left: 50px;
+}
+
+#whyride h1 {
+    color: blue;
+    padding-left: 100px;
+}
+
+.book {
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+.book h1 {
+    color: blue;
+}
+
+#choice {
+    float: left;
+    padding: 40px;
+    padding-left: 50px;
+}
+
+#full-image {
+    float: right;
+    background-color: gainsboro;
+    margin-left: 0px;
+}
+
+#full-content {
+    float: left;
+    font-size: 40px;
+    padding-left: 50px;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: gainsboro;
+    margin-right: 0px;
+    padding-right: 400px;
+}
+
+.loading {
+    background-color: gainsboro;
+}
+
+.app {
+    float: left;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+.footer {
+    background-color: blue;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+
+#foots {
+    float: left;
+    padding-left: 200px;
+    padding-top: 10px;
+    background-color: #0071ff;
+    padding-right: 100px;
+}
+
+#foots li {
+    padding: 0px;
+    background-color: #0071f1;
+    color: white;
+}
+
+#foots li a {
+    color: white;
+    font-size: 30px;
+}
+
+#copy li {
+    display: inline;
+    color: white;
+}
+
+#copy li a img {
+    width: 30px;
+    height: 100px;
+}
